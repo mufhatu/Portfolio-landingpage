@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb( 10,10,11);
+    font-family: 'Inter', sans-serif;
+}
+
+/** colors**/
+.bg-grey{
+   background-color:#808080;
+}
+/** Font **/
+
+h1{
+    color: #fff;
+    font-family: 'Prata', serif;
+    font-size: 60px;
+}
+
+h2{
+    color:#fff;
+    font-family: 'Prata',serif;
+    font-size: 40px;
+}
+
+p{  
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+/** BTN **/
+.btn{
+    border-radius: 2px;
+    font-weight: 600;
+}
+.btn-yellow{
+    background-color: #ffff00;
+    color: black;
+    
+}
+
+/**  Navbar **/
+.navbar{
+    box-shadow: none;
+    height: 100px;
+} 
+nav .navbar-brand a{
+    color:#fff !important;
+    font-size: 26px;
+}
+nav .navbar-nav li a{
+    color: #fff !important;
+    font-size: 20px;
+}
+.navbar .navbar-nav li a:hover{
+    color: #ffff00 !important;
+}
+
+.navbar-collapse{
+    background-color: transparent;
+    
+}
+i{
+    color:#ffff00;
+}
+
+@media screen and(max-width:768px){
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    
+.navbar-collapse{
+    background-color: black;
+    padding:10px 15px 10px 15px;
+    margin-top: 10px;
+}
+}
+
+@media screen and (max-width:425px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 38px;
+    }
+    
+.navbar-collapse{
+    background-color: black;
+    padding:10px 15px 10px 15px;
+    margin-top: 10px;
+}
+}
+
+@media screen and (max-width:375px){
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    
+.navbar-collapse{
+    background-color: black;
+    padding:10px 15px 10px 15px;
+    margin-top: 10px;
+}
+}
+
+@media screen and (max-width:320px){
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    
+.navbar-collapse{
+    background-color: black;
+    padding:10px 15px 10px 15px;
+    margin-top: 10px;
+}
+}
